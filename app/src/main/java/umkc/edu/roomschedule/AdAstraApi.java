@@ -128,7 +128,7 @@ public class AdAstraApi {
 
         //Client client = ClientBuilder.newClient();
         JSONObject json;
-        InputStream is = new URL("http://umkclaw.link/doNOTdelete/AdAstraPassword.json").openStream();
+        InputStream is = new URL("http://umkclaw.link/doNOTdelete/****.json").openStream();//AdAstra api credential api hidden for privacy
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
             StringBuilder sb = new StringBuilder();
