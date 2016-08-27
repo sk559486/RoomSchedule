@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:keepScreenOn="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="30"
+        android:id="@+id/text_timer"
+        android:textSize="30dp"
+        android:textColor="#ff0000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Still here? touch the screen to continue"
+        android:id="@+id/textview_info"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/text_timer"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reserve Now"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/text_timer"
+        android:layout_alignParentStart="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF" />
+</RelativeLayout>
